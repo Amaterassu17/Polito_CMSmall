@@ -1,0 +1,128 @@
+GET http://localhost:3001/api/pages
+Accept: application/json
+
+###
+
+POST http://localhost:3001/api/sessions
+Accept: application/json
+Content-Type: application/json
+
+  {
+    "username": "angelo.gennuso@hknpolito.org",
+    "password": "Zucchina"
+  }
+
+###
+
+POST http://localhost:3001/api/sessions
+Accept: application/json
+Content-Type: application/json
+
+  {
+    "username": "angelo.gen",
+    "password": "Zucchina"
+  }
+
+###
+
+GET http://localhost:3001/api/pages/51
+Accept: application/json
+
+###
+
+GET http://localhost:3001/api/publishedPages
+Accept: application/json
+
+###
+
+GET http://localhost:3001/api/pages/33/blocks
+Accept: application/json
+
+###
+
+DELETE http://localhost:3001/api/pages/1
+Accept: application/json
+
+###
+
+PUT http://localhost:3001/api/title
+Accept: application/json
+Content-Type: application/json
+
+
+{
+  "title": "New Title"
+}
+
+###
+
+POST http://localhost:3001/api/pages
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "nuovooo",
+  "author": "Amaterassu17",
+  "publishDate": "01/01/2017",
+  "blocks": [
+    {
+      "type": "text",
+      "content": "Hello World",
+      "relativePos": "0"
+    },
+    {
+      "type": "image",
+      "content": "induction.jpg",
+      "relativePos": "1"
+    }
+  ]
+}
+
+###
+
+PUT http://localhost:3001/api/pages/13
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "nuovooo",
+  "author": "Amaterassu17",
+  "publishDate": "01/01/2017",
+  "blocks": [
+    {
+      "type": "header",
+      "content": "Modified Hello World",
+      "relativePos": "2"
+    },
+    {
+      "type": "image",
+      "content": "due_fantagenitori.jpg",
+      "relativePos": "1"
+    }
+
+  ]
+}
+
+###
+
+POST http://localhost:3001/api/pages
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "nuovooo",
+  "author": "",
+  "publishDate": "01/01/2017",
+  "blocks": [
+    {
+      "type": "text",
+      "content": "Hello World",
+      "relativePos": "0"
+    },
+    {
+      "type": "image",
+      "content": "induction.jpg",
+      "relativePos": "1"
+    }
+  ]
+}

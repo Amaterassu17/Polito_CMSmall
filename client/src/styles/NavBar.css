@@ -1,0 +1,30 @@
+/* Navigation.css */
+
+.icon-size {
+    font-size: 1rem; /* Adjust the size as needed */
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.form-inline {
+    margin-left: 1rem;
+}
+
+.button {
+    margin-left: 0.5rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}

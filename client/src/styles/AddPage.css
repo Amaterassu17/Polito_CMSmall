@@ -1,0 +1,58 @@
+
+
+.container {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-group {
+    margin-left: 5px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.btn-danger {
+    margin-left: 10px;
+}
+
+.btn-warning {
+    margin-right: 0px;
+}
+
+.bi-arrow-bar-up,
+.bi-arrow-bar-down {
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+h1:first-child {
+    margin-top: 0;
+}
+
+h1:last-child {
+    margin-bottom: 0;
+}
+
+.warning {
+    color: red;
+}
